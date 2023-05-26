@@ -115,8 +115,8 @@ export default function Home() {
             Satisfaction Guarantee
           </h2>
           <p className="text-slate-400">
-            Exchange the product you've purchased <br /> if it doesn't fit on
-            you
+            Exchange the product you've purchased <br /> if it doesn&apos;t fit
+            on you
           </p>
         </div>
         <div>
