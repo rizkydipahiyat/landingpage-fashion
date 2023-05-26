@@ -2,26 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.hamburger-line {
+  display: block;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  height: 2px;
+  width: 30px;
+  background-color: black;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.hamburger-active > span:nth-child(1) {
+  transform: rotate(45deg)
 }
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.hamburger-active > span:nth-child(2) {
+  transform: scale(0)
+}
+.hamburger-active > span:nth-child(3) {
+  transform: rotate(-45deg)
 }
