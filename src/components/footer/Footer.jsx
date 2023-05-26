@@ -33,7 +33,7 @@ const Footer = () => {
           <span>Cookie Policy</span>
           <span>Terms of Use</span>
         </div>
-        <div className="flex flex-col gap-y-4 text-slate-600">
+        <div className="flex flex-col xs:mt-5 xs:gap-y-2 gap-y-4 text-slate-600">
           <h1 className="text-md font-semibold mb-1">PAYMENT METHODS</h1>
           <div className="flex gap-x-8">
             <Image src={mastercard} alt="master-card" width={30} />
