@@ -6,10 +6,10 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className="bg-slate-300 p-24 xs:p-12 mt-10">
-      <div className="lg:flex md:flex xs:flex-col justify-between">
+    <div className="bg-slate-300 lg:p-24 md:p-24 xs:p-12 mt-10">
+      <div className="lg:flex md:flex xs:grid xs:grid-cols-1 justify-between">
         <div className="xs:mt-5">
-          <h1 className="text-2xl font-semibold mb-1">NOSTRA</h1>
+          <h1 className="lg:text-2xl md:text-2xl font-semibold mb-1">NOSTRA</h1>
           <p className="text-md text-slate-600">
             Specializes in providing high-quality, stylish <br /> products for
             your wardrobe
